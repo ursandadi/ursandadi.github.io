@@ -1,39 +1,46 @@
+/* use all of screen space */
 html, body {
     height: 100%;
 }
 
+/* display in center */
 html {
     display: table;
     margin: auto;
     background-color: #EEEEEE;
 }
 
+/* display body in center */
 body {
   display: table-cell;
 }
 
+/* style for all of content within body */
 .content {
   width: 1024px;
   background-color: white;
-  height: 95%;
   padding: 30px;
 }
 
+/* style for header title */
 .header {
   font-size: 32px;
   border-bottom: red;
   box-shadow:0px 3px 3px #ff9900;
 }
 
-.break {
-  margin-top: 30px;
-  box-shadow:0px 2px 2px #DD9900; 
-}
-
+/* style for all elements within example div */
 .example {
   margin-top: 20px;  
 }
 
+/* style for <hr> within example div */
+.example .break {
+  margin-top: 30px;
+  box-shadow:0px 2px 2px #DD9900; 
+}
+
+/* style for all input tags within example div */
 .example input {
   width: 200px;
   font-size: 14px;
@@ -43,6 +50,7 @@ body {
   background-color: #EEEEEE;
 }
 
+/* style for all buttons within example div */
 .example button {
   background-color: #ff9900;
   border-radius: 10px;
@@ -50,13 +58,13 @@ body {
   height: 30px;
 }
 
+/* style for all answer tag within example div */
 .example .answer {
   margin-top: 20px;
 }
 
-.footer {
-  color: blue;
-  font-size: 10px;
-  position: absolute;
-  bottom: 2%;
+/* style for all images within example div */
+.example img {
+  width: 800px;
+  height: 400px;
 }
