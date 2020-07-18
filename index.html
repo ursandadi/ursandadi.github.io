@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+    <div class="content">
+      
+      <div class="header">
+        <h1>
+          Javascript Tutorials
+        </h1>
+      </div>
+      
+      <div class="example">
+        <h2>
+          Add two numbers
+        </h2>
+        <div>Enter first number:<br/>
+          <input type="text" id="number1" onchange="ClearAnswer();"/>
+        </div>  
+        <div>Enter second number:<br/>
+          <input type="text" id="number2" onchange="ClearAnswer();"/>
+        </div>
+        <div>
+          <button type="button" onclick="AddTwoNumbers()"> Add two numbers </button>
+        </div>
+        <div class="answer"> Answer:
+          <span id="answer"></span>
+        </div>
+      </div>
+      
+      <hr class="break">
+      
+      <div class="example">
+        <h2>
+          Click on image to switch
+        </h2>
+        <div>
+          <img id="starwars" src="https://lumiere-a.akamaihd.net/v1/images/d-o-main_9e3a2e61.jpeg?region=0%2C0%2C1280%2C720&width=768" onclick="SwitchImage();">
+        </div>  
+      
+      <hr class="break">
+    
+      <!--<div class="footer">
+        <a href="https://vtsworld.org">vtsworld</a>
+      </div>-->
+    </div>
+  </body>
+</html>
+
